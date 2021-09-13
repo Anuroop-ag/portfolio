@@ -36,6 +36,9 @@ body {
   .cust-button {
     font-size: 40px;
   }
+  .tech-tiles {
+    font-size: 35px;
+  }
   .project-title {
     display: inline-block;
     font-size: 80px;
@@ -94,6 +97,10 @@ body {
 
 @media (min-width: 992px) {
   .cust-button {
+    font-size: inherit;
+  }
+
+  .tech-tiles {
     font-size: inherit;
   }
 

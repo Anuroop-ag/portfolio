@@ -111,6 +111,10 @@ p {
   margin-bottom: 1rem;
 }
 
+.tech-skills{
+  margin-bottom:0 !important;
+}
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -11432,6 +11436,22 @@ textarea.form-control {
 }
 .cust-button a {
   color: white;
+}
+
+.tech-tiles {
+  background-color: rgba(0,0,0,0.2);
+  border: none;
+  color: #000;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.tech-tiles a {
+  color: black;
 }
 
 .ftco-footer {

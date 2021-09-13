@@ -49,6 +49,18 @@ body {
   .name-main {
     font-size: 100px;
   }
+  .name-animate{
+    font-size: 60px;
+  }
+  
+  .desc-animate{
+    font-size: 40px;
+  }
+
+  .width-animate{
+    width : 100%;
+    margin-bottom : 200px;
+  }
 
   .about-section h2 {
     font-size: 50px;
@@ -64,6 +76,10 @@ body {
   .cust-button {
     font-size: 40px;
     margin: 4rem 0;
+  }
+  .cust-button {
+    font-size: 40px;
+    /* margin: 4rem 0; */
   }
 
   .list-unstyled {
@@ -186,6 +202,17 @@ body {
     font-size: 55px;
   }
 
+  .desc-animate{
+    font-size: 20px;
+  }
+  .width-animate{
+    width : 25%;
+    margin-bottom : 0px;
+  }
+
+  .name-animate{
+    font-size: 35px;
+  }
   .about-section h2 {
     font-size: 2rem;
   }
@@ -199,6 +226,10 @@ body {
   }
 
   .cust-button {
+    font-size: inherit;
+  }
+
+  .tech-tiles {
     font-size: inherit;
   }
 
@@ -434,8 +465,19 @@ a.scroll {
   letter-spacing: 10px;
   display: inline-block;
   position: relative;
+  
 }
 
+.name-animate {
+  color: #393a3e;
+  line-height: 1.2;
+  font-weight: 700;
+  /* text-transform: uppercase; */
+  /* letter-spacing: 10px; */
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
 #container1,
 #container2 {
   width: 150px;
