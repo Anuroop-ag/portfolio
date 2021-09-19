@@ -52,6 +52,9 @@ body {
   .name-animate{
     font-size: 60px;
   }
+  .chalo-card{
+    margin-top: 0px ;
+  }
   
   .desc-animate{
     font-size: 40px;
@@ -212,6 +215,9 @@ body {
 
   .name-animate{
     font-size: 35px;
+  }
+  .chalo-card{
+    margin-top: -170px;
   }
   .about-section h2 {
     font-size: 2rem;
@@ -478,6 +484,7 @@ a.scroll {
   position: relative;
   text-align: center;
 }
+
 #container1,
 #container2 {
   width: 150px;
